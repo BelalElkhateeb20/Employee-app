@@ -39,11 +39,9 @@ namespace MyApp
             Console.WriteLine("******************");
             emps[1] = ob2;
 
-            ob2.display();
-
             foreach (var emp in emps)
             {
-                Console.WriteLine(emp.display());
+                Console.WriteLine(emp);
             }
             Console.ReadKey();
             //Program ob1 = new Program();

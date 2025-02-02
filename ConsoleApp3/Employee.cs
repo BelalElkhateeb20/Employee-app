@@ -21,7 +21,7 @@ namespace ConsoleApp3
         private double caluc_salary() => Wage * LoggedHours;                     //if the method contains one line we dont need→{}
         private double caluc_TAXamount() =>   caluc_salary() * Employee.TAX;       //if the method contains one line we dont need→{}
         private double caluc_netsalary() => caluc_salary() - caluc_TAXamount();    //if the method contains one line we dont need→{}
-        public  string display()
+        public override string ToString()
         {
             return
                    $"\nMy name is : {Fname}" +
